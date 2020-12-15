@@ -1,15 +1,13 @@
 
-//Import base styles
+@use '1-base/reset';
+@use '1-base/global';
+@use '1-base/typography';
 
-@use '0\ -\ base/reset';
-@use '0\ -\ base/global';
-@use '0\ -\ base/typography';
+@use '2-layout/header';
 
-//Import layout styles
+@use '3-module/button';
 
-
-
-//Import module styles
+@use '4-shame/shame';
 
 
 
